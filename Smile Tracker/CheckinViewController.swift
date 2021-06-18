@@ -45,6 +45,16 @@ class CheckinViewController: UIViewController {
     }
     
     @IBAction func yes(_ sender: Any) {
+        let currentNumber =  UserDefaults.standard.integer(forKey: "sync DaysLeft")
+        
+        if currentNumber == 1 {
+            UserDefaults.standard.set(14, forKey: "sync DaysLeft")
+            let currentSet = UserDefaults.standard.integer(forKey: "sync CurrentSet")
+            UserDefaults.standard.set(currentSet + 1, forKey: "sync CurrentSet")
+        } else {
+            UserDefaults.standard.set(currentNumber - 1, forKey: "sync DaysLeft")
+        }
+       
         dismiss(animated: true, completion: nil)
     }
     
