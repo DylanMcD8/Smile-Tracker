@@ -224,7 +224,7 @@
                             </view>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nuk-hR-FEV">
                                 <rect key="frame" x="20" y="194" width="388" height="470"/>
-                                <imageReference key="image" image="Aligners Graphic with Question"/>
+                                <imageReference key="image" image="Full Aligners"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XTh-yO-Rak">
                                 <rect key="frame" x="0.0" y="174" width="214" height="470"/>
@@ -265,8 +265,10 @@
                     <navigationItem key="navigationItem" title="Welcome" id="Yfm-1q-3ZC"/>
                     <connections>
                         <outlet property="buttonsContainer" destination="knP-Wm-VFF" id="YXG-R6-COd"/>
+                        <outlet property="fullImage" destination="nuk-hR-FEV" id="wBQ-fb-ync"/>
                         <outlet property="leftImage" destination="XTh-yO-Rak" id="JFR-T7-ERg"/>
                         <outlet property="noButton" destination="plr-BD-qdU" id="yqw-pH-7KP"/>
+                        <outlet property="rightImage" destination="rEA-jT-UaL" id="ZZB-Tj-ST0"/>
                         <outlet property="yesButton" destination="ux2-MS-j2b" id="gJZ-RJ-Wwa"/>
                     </connections>
                 </viewController>
@@ -312,14 +314,14 @@
                             <tableViewSection id="qJC-2Y-YZf">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="1f2-jh-rv1">
-                                        <rect key="frame" x="20" y="8" width="388" height="57.333332061767578"/>
+                                        <rect key="frame" x="20" y="8" width="388" height="57.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1f2-jh-rv1" id="Hvh-lF-usT">
-                                            <rect key="frame" x="0.0" y="0.0" width="388" height="57.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="388" height="57.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Morning Reminder Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmQ-IM-YNp">
-                                                    <rect key="frame" x="16" y="15.999999999999998" width="218" height="25.333333333333329"/>
+                                                    <rect key="frame" x="16" y="16" width="218" height="25.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -348,14 +350,14 @@
                             <tableViewSection id="XjP-bR-FHp">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="d0A-Bl-P0z">
-                                        <rect key="frame" x="20" y="81.333332061767578" width="388" height="57.333332061767578"/>
+                                        <rect key="frame" x="20" y="81.666667938232422" width="388" height="57.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d0A-Bl-P0z" id="USi-D7-gKg">
-                                            <rect key="frame" x="0.0" y="0.0" width="388" height="57.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="388" height="57.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evening Reminder Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLa-CU-uXR">
-                                                    <rect key="frame" x="16" y="15.999999999999998" width="215" height="25.333333333333329"/>
+                                                    <rect key="frame" x="16" y="16" width="215" height="25.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -384,7 +386,7 @@
                             <tableViewSection id="a9n-2w-y1b">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="aYT-AX-jIf" style="IBUITableViewCellStyleDefault" id="3TD-2G-9FG">
-                                        <rect key="frame" x="20" y="154.66666412353516" width="388" height="49.666667938232422"/>
+                                        <rect key="frame" x="20" y="155.33333587646484" width="388" height="49.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3TD-2G-9FG" id="4az-Xb-cKX">
                                             <rect key="frame" x="0.0" y="0.0" width="356.66666666666669" height="49.666667938232422"/>
@@ -406,7 +408,7 @@
                             <tableViewSection id="BzB-nw-Fqh">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Cwm-rZ-tJk" style="IBUITableViewCellStyleDefault" id="6j7-FR-Yd5">
-                                        <rect key="frame" x="20" y="220.33333206176758" width="388" height="49.666667938232422"/>
+                                        <rect key="frame" x="20" y="221.00000381469727" width="388" height="49.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6j7-FR-Yd5" id="8bI-X0-8oP">
                                             <rect key="frame" x="0.0" y="0.0" width="356.66666666666669" height="49.666667938232422"/>
@@ -459,8 +461,8 @@
     </scenes>
     <color key="tintColor" name="AccentColor"/>
     <resources>
-        <image name="Aligners Graphic with Question" width="1526" height="1112"/>
         <image name="Background Pattern" width="501.80999755859375" height="502.8699951171875"/>
+        <image name="Full Aligners" width="473" height="320"/>
         <image name="Left" width="476" height="858"/>
         <image name="Right" width="454" height="830"/>
         <image name="xmark" catalog="system" width="128" height="113"/>

@@ -14,6 +14,8 @@ class CheckinViewController: UIViewController {
     @IBOutlet weak var noButton: UIButton!
     
     @IBOutlet weak var leftImage: UIImageView!
+    @IBOutlet weak var rightImage: UIImageView!
+    @IBOutlet weak var fullImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,6 +62,18 @@ class CheckinViewController: UIViewController {
     
     @IBAction func no(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        if traitCollection.horizontalSizeClass == .compact {
+            leftImage.isHidden = false
+            rightImage.isHidden = false
+            fullImage.isHidden = true
+        } else {
+            leftImage.isHidden = true
+            rightImage.isHidden = true
+            fullImage.isHidden = false
+        }
     }
     
     
