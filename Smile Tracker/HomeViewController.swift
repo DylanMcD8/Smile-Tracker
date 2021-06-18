@@ -52,6 +52,11 @@ class HomeViewController: UIViewController {
         
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        daysLeftLabel.text = String(UserDefaults.standard.integer(forKey: "sync DaysLeft"))
+        currentSetLabel.text = String(UserDefaults.standard.integer(forKey: "sync CurrentSet"))
+    }
 
 
 }
