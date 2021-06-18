@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		660D7254267C896700164378 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D7253267C896700164378 /* SettingsTableViewController.swift */; };
+		660D7257267C936D00164378 /* CloudUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = 660D7256267C936D00164378 /* CloudUserDefaults */; };
 		6615EAA5267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA95267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf */; };
 		6615EAA6267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA96267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf */; };
 		6615EAA7267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA97267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf */; };
@@ -107,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660D7257267C936D00164378 /* CloudUserDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +246,9 @@
 			dependencies = (
 			);
 			name = "Smile Tracker";
+			packageProductDependencies = (
+				660D7256267C936D00164378 /* CloudUserDefaults */,
+			);
 			productName = "Smile Tracker";
 			productReference = 66694254267BFD4400BC87D7 /* Smile Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -316,6 +321,9 @@
 				Base,
 			);
 			mainGroup = 6669424B267BFD4400BC87D7;
+			packageReferences = (
+				660D7255267C936D00164378 /* XCRemoteSwiftPackageReference "CloudUserDefaults" */,
+			);
 			productRefGroup = 66694255267BFD4400BC87D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -766,6 +774,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		660D7255267C936D00164378 /* XCRemoteSwiftPackageReference "CloudUserDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nbasham/CloudUserDefaults";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		660D7256267C936D00164378 /* CloudUserDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660D7255267C936D00164378 /* XCRemoteSwiftPackageReference "CloudUserDefaults" */;
+			productName = CloudUserDefaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6669424C267BFD4400BC87D7 /* Project object */;
 }

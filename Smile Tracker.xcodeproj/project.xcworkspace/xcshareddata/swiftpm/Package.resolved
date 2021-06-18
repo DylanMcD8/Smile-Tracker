@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CloudUserDefaults",
+        "repositoryURL": "https://github.com/nbasham/CloudUserDefaults",
+        "state": {
+          "branch": null,
+          "revision": "2f6695211e5c2b596c1fd886eefffeeb34c64d16",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
