@@ -22,7 +22,15 @@ class CheckinViewController: UIViewController {
         buttonsContainer.layer.cornerCurve = .continuous
         buttonsContainer.layer.cornerRadius = 45
         
-        
+        if traitCollection.horizontalSizeClass == .compact {
+            leftImage.isHidden = false
+            rightImage.isHidden = false
+            fullImage.isHidden = true
+        } else {
+            leftImage.isHidden = true
+            rightImage.isHidden = true
+            fullImage.isHidden = false
+        }
         
         // Set button fonts
         if let font = UIFont(name: "Sofia Pro Bold", size: 40) {

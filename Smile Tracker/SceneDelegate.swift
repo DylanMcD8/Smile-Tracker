@@ -19,7 +19,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         let cloudUserDefaults = CloudUserDefaults()
         cloudUserDefaults.start(prefix: "sync")
-        guard let _ = (scene as? UIWindowScene) else { return }
+        fetchNewDataFromiCloud()
+        
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        #if targetEnvironment(macCatalyst)
+        windowScene.titlebar?.titleVisibility = .hidden
+        UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }.forEach { windowScene in
+            windowScene.sizeRestrictions?.minimumSize = CGSize(width: 650, height: 800)
+        }
+        #endif
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -53,3 +62,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+func fetchNewDataFromiCloud() {
+    NotificationCenter.default.post(name: NSUbiquitousKeyValueStore.didChangeExternallyNotification, object: nil)
+}

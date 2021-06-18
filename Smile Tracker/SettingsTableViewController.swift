@@ -23,8 +23,6 @@ class SettingsTableViewController: UITableViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.timeStyle = .short
         
-        print(dateFormatter.string(from: Date()))
-        
         morningTimePicker.date = dateFormatter.date(from: UserDefaults.standard.string(forKey: "sync MorningReminderTime") ?? "8:00 AM") ?? Date()
         
         eveningTimePicker.date = dateFormatter.date(from: UserDefaults.standard.string(forKey: "sync EveningReminderTime") ?? "10:00 PM") ?? Date()
@@ -45,4 +43,140 @@ class SettingsTableViewController: UITableViewController {
     }
     
 
+}
+
+
+class OverrideCurrentSetViewController: UIViewController {
+
+    @IBOutlet weak var addButton: UIButton!
+    @IBOutlet weak var minusButton: UIButton!
+    
+    @IBOutlet weak var numberLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if let font = UIFont(name: "Sofia Pro Bold", size: 80) {
+            let customString = NSMutableAttributedString(string: "-", attributes: [NSAttributedString.Key.font: font])
+            
+            minusButton.setAttributedTitle(customString, for: .normal)
+        } else {
+            print("error, font not found...")
+        }
+        
+        if let font = UIFont(name: "Sofia Pro Bold", size: 80) {
+            let customString = NSMutableAttributedString(string: "+", attributes: [NSAttributedString.Key.font: font])
+            
+            addButton.setAttributedTitle(customString, for: .normal)
+        } else {
+            print("error, font not found...")
+        }
+    }
+    
+    @IBAction func add(_ sender: Any) {
+        let currentNumber = Int(numberLabel.text!)!
+        numberLabel.text = String(currentNumber + 1)
+        
+        if minusButton.isEnabled == false {
+            if currentNumber > 0 {
+                minusButton.isEnabled = true
+            }
+        }
+    }
+    
+    @IBAction func subtract(_ sender: Any) {
+        let currentNumber = Int(numberLabel.text!)!
+        
+        if currentNumber > 1 {
+            numberLabel.text = String(currentNumber - 1)
+        }
+        
+        if currentNumber <= 2 {
+            minusButton.isEnabled = false
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        numberLabel.text = String(UserDefaults.standard.string(forKey: "sync CurrentSet")!)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        let newNumber = Int(numberLabel.text!)
+        UserDefaults.standard.set(newNumber, forKey: "sync CurrentSet")
+    }
+    
+}
+
+class OverrideDaysLeftViewController: UIViewController {
+    
+    @IBOutlet weak var addButton: UIButton!
+    @IBOutlet weak var minusButton: UIButton!
+    
+    @IBOutlet weak var numberLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if let font = UIFont(name: "Sofia Pro Bold", size: 80) {
+            let customString = NSMutableAttributedString(string: "-", attributes: [NSAttributedString.Key.font: font])
+            
+            minusButton.setAttributedTitle(customString, for: .normal)
+        } else {
+            print("error, font not found...")
+        }
+        
+        if let font = UIFont(name: "Sofia Pro Bold", size: 80) {
+            let customString = NSMutableAttributedString(string: "+", attributes: [NSAttributedString.Key.font: font])
+            
+            addButton.setAttributedTitle(customString, for: .normal)
+        } else {
+            print("error, font not found...")
+        }
+    }
+    
+    @IBAction func add(_ sender: Any) {
+        let currentNumber = Int(numberLabel.text!)!
+        
+        if currentNumber < 14 {
+            numberLabel.text = String(currentNumber + 1)
+        }
+        
+        if currentNumber >= 13 {
+            addButton.isEnabled = false
+        }
+        
+        if minusButton.isEnabled == false {
+            if currentNumber > 0 {
+                minusButton.isEnabled = true
+            }
+        }
+    }
+    
+    @IBAction func subtract(_ sender: Any) {
+        let currentNumber = Int(numberLabel.text!)!
+        
+        if currentNumber > 1 {
+            numberLabel.text = String(currentNumber - 1)
+        }
+        
+        if currentNumber <= 2 {
+            minusButton.isEnabled = false
+        }
+        
+        if addButton.isEnabled == false {
+            if currentNumber < 15 {
+                addButton.isEnabled = true
+            }
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        numberLabel.text = String(UserDefaults.standard.string(forKey: "sync DaysLeft")!)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        let newNumber = Int(numberLabel.text!)
+        UserDefaults.standard.set(newNumber, forKey: "sync DaysLeft")
+    }
+    
 }
