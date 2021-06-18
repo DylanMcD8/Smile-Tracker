@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660D7254267C896700164378 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D7253267C896700164378 /* SettingsTableViewController.swift */; };
+		6615EAA5267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA95267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf */; };
+		6615EAA6267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA96267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf */; };
+		6615EAA7267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA97267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf */; };
+		6615EAA8267C46CC00B04FF1 /* Sofia Pro Regular Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA98267C46CC00B04FF1 /* Sofia Pro Regular Italic Az.otf */; };
+		6615EAA9267C46CC00B04FF1 /* Sofia Pro Medium Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA99267C46CC00B04FF1 /* Sofia Pro Medium Az.otf */; };
+		6615EAAA267C46CC00B04FF1 /* Sofia Pro Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA9A267C46CC00B04FF1 /* Sofia Pro Bold Italic Az.otf */; };
+		6615EAAB267C46CC00B04FF1 /* Sofia Pro UltraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA9B267C46CC00B04FF1 /* Sofia Pro UltraLight Italic Az.otf */; };
+		6615EAAC267C46CC00B04FF1 /* Sofia Pro Light Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA9C267C46CC00B04FF1 /* Sofia Pro Light Az.otf */; };
+		6615EAAD267C46CC00B04FF1 /* Sofia Pro Light Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA9D267C46CC00B04FF1 /* Sofia Pro Light Italic Az.otf */; };
+		6615EAAE267C46CC00B04FF1 /* Sofia Pro Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA9E267C46CC00B04FF1 /* Sofia Pro Bold Az.otf */; };
+		6615EAAF267C46CC00B04FF1 /* Sofia Pro Semi Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EA9F267C46CC00B04FF1 /* Sofia Pro Semi Bold Italic Az.otf */; };
+		6615EAB0267C46CC00B04FF1 /* Sofia Pro UltraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAA0267C46CC00B04FF1 /* Sofia Pro UltraLight Az.otf */; };
+		6615EAB1267C46CC00B04FF1 /* Sofia Pro Regular Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAA1267C46CC00B04FF1 /* Sofia Pro Regular Az.otf */; };
+		6615EAB2267C46CC00B04FF1 /* Sofia Pro Black Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAA2267C46CC00B04FF1 /* Sofia Pro Black Italic Az.otf */; };
+		6615EAB3267C46CC00B04FF1 /* Sofia Pro Black Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAA3267C46CC00B04FF1 /* Sofia Pro Black Az.otf */; };
+		6615EAB4267C46CC00B04FF1 /* Sofia Pro Semi Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAA4267C46CC00B04FF1 /* Sofia Pro Semi Bold Az.otf */; };
+		6615EABE267C6F8D00B04FF1 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAB6267C6F8C00B04FF1 /* ProximaNova-Regular.otf */; };
+		6615EABF267C6F8D00B04FF1 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAB7267C6F8C00B04FF1 /* Proxima Nova Extrabold.otf */; };
+		6615EAC0267C6F8D00B04FF1 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAB8267C6F8C00B04FF1 /* Proxima Nova Alt Thin.otf */; };
+		6615EAC1267C6F8D00B04FF1 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EAB9267C6F8C00B04FF1 /* Proxima Nova Bold.otf */; };
+		6615EAC2267C6F8D00B04FF1 /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EABA267C6F8D00B04FF1 /* Proxima Nova Alt Bold.otf */; };
+		6615EAC3267C6F8D00B04FF1 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EABB267C6F8D00B04FF1 /* Proxima Nova Black.otf */; };
+		6615EAC4267C6F8D00B04FF1 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EABC267C6F8D00B04FF1 /* Proxima Nova Thin.otf */; };
+		6615EAC5267C6F8D00B04FF1 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6615EABD267C6F8D00B04FF1 /* Proxima Nova Alt Light.otf */; };
+		66694258267BFD4400BC87D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66694257267BFD4400BC87D7 /* AppDelegate.swift */; };
+		6669425A267BFD4400BC87D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66694259267BFD4400BC87D7 /* SceneDelegate.swift */; };
+		6669425C267BFD4400BC87D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669425B267BFD4400BC87D7 /* HomeViewController.swift */; };
+		6669425F267BFD4400BC87D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6669425D267BFD4400BC87D7 /* Main.storyboard */; };
+		66694261267BFD4500BC87D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66694260267BFD4500BC87D7 /* Assets.xcassets */; };
+		66694264267BFD4600BC87D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66694262267BFD4600BC87D7 /* LaunchScreen.storyboard */; };
+		6669426F267BFD4600BC87D7 /* Smile_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669426E267BFD4600BC87D7 /* Smile_TrackerTests.swift */; };
+		66694279267BFD4600BC87D7 /* Smile_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66694278267BFD4600BC87D7 /* Smile_TrackerUITests.swift */; };
+		66694286267C083700BC87D7 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66694285267C083700BC87D7 /* CheckinViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6669426B267BFD4600BC87D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6669424C267BFD4400BC87D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66694253267BFD4400BC87D7;
+			remoteInfo = "Smile Tracker";
+		};
+		66694275267BFD4600BC87D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6669424C267BFD4400BC87D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66694253267BFD4400BC87D7;
+			remoteInfo = "Smile Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660D7252267C842300164378 /* Smile Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Smile Tracker.entitlements"; sourceTree = "<group>"; };
+		660D7253267C896700164378 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		6615EA95267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro ExtraLight Italic Az.otf"; sourceTree = "<group>"; };
+		6615EA96267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Medium Italic Az.otf"; sourceTree = "<group>"; };
+		6615EA97267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro ExtraLight Az.otf"; sourceTree = "<group>"; };
+		6615EA98267C46CC00B04FF1 /* Sofia Pro Regular Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Regular Italic Az.otf"; sourceTree = "<group>"; };
+		6615EA99267C46CC00B04FF1 /* Sofia Pro Medium Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Medium Az.otf"; sourceTree = "<group>"; };
+		6615EA9A267C46CC00B04FF1 /* Sofia Pro Bold Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Bold Italic Az.otf"; sourceTree = "<group>"; };
+		6615EA9B267C46CC00B04FF1 /* Sofia Pro UltraLight Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro UltraLight Italic Az.otf"; sourceTree = "<group>"; };
+		6615EA9C267C46CC00B04FF1 /* Sofia Pro Light Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Light Az.otf"; sourceTree = "<group>"; };
+		6615EA9D267C46CC00B04FF1 /* Sofia Pro Light Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Light Italic Az.otf"; sourceTree = "<group>"; };
+		6615EA9E267C46CC00B04FF1 /* Sofia Pro Bold Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Bold Az.otf"; sourceTree = "<group>"; };
+		6615EA9F267C46CC00B04FF1 /* Sofia Pro Semi Bold Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Semi Bold Italic Az.otf"; sourceTree = "<group>"; };
+		6615EAA0267C46CC00B04FF1 /* Sofia Pro UltraLight Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro UltraLight Az.otf"; sourceTree = "<group>"; };
+		6615EAA1267C46CC00B04FF1 /* Sofia Pro Regular Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Regular Az.otf"; sourceTree = "<group>"; };
+		6615EAA2267C46CC00B04FF1 /* Sofia Pro Black Italic Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Black Italic Az.otf"; sourceTree = "<group>"; };
+		6615EAA3267C46CC00B04FF1 /* Sofia Pro Black Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Black Az.otf"; sourceTree = "<group>"; };
+		6615EAA4267C46CC00B04FF1 /* Sofia Pro Semi Bold Az.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Semi Bold Az.otf"; sourceTree = "<group>"; };
+		6615EAB6267C6F8C00B04FF1 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		6615EAB7267C6F8C00B04FF1 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		6615EAB8267C6F8C00B04FF1 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		6615EAB9267C6F8C00B04FF1 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		6615EABA267C6F8D00B04FF1 /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		6615EABB267C6F8D00B04FF1 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		6615EABC267C6F8D00B04FF1 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		6615EABD267C6F8D00B04FF1 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		66694254267BFD4400BC87D7 /* Smile Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smile Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66694257267BFD4400BC87D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66694259267BFD4400BC87D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6669425B267BFD4400BC87D7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6669425E267BFD4400BC87D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66694260267BFD4500BC87D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66694263267BFD4600BC87D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66694265267BFD4600BC87D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6669426A267BFD4600BC87D7 /* Smile TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smile TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6669426E267BFD4600BC87D7 /* Smile_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile_TrackerTests.swift; sourceTree = "<group>"; };
+		66694274267BFD4600BC87D7 /* Smile TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smile TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66694278267BFD4600BC87D7 /* Smile_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile_TrackerUITests.swift; sourceTree = "<group>"; };
+		66694285267C083700BC87D7 /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66694251267BFD4400BC87D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66694267267BFD4600BC87D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66694271267BFD4600BC87D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6615EA94267C46BC00B04FF1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6615EAC6267C6F9300B04FF1 /* Proxima Nova */,
+				6615EAB5267C6F7B00B04FF1 /* Sofia Pro */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6615EAB5267C6F7B00B04FF1 /* Sofia Pro */ = {
+			isa = PBXGroup;
+			children = (
+				6615EAA3267C46CC00B04FF1 /* Sofia Pro Black Az.otf */,
+				6615EAA2267C46CC00B04FF1 /* Sofia Pro Black Italic Az.otf */,
+				6615EA9E267C46CC00B04FF1 /* Sofia Pro Bold Az.otf */,
+				6615EA9A267C46CC00B04FF1 /* Sofia Pro Bold Italic Az.otf */,
+				6615EA97267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf */,
+				6615EA95267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf */,
+				6615EA9C267C46CC00B04FF1 /* Sofia Pro Light Az.otf */,
+				6615EA9D267C46CC00B04FF1 /* Sofia Pro Light Italic Az.otf */,
+				6615EA99267C46CC00B04FF1 /* Sofia Pro Medium Az.otf */,
+				6615EA96267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf */,
+				6615EAA1267C46CC00B04FF1 /* Sofia Pro Regular Az.otf */,
+				6615EA98267C46CC00B04FF1 /* Sofia Pro Regular Italic Az.otf */,
+				6615EAA4267C46CC00B04FF1 /* Sofia Pro Semi Bold Az.otf */,
+				6615EA9F267C46CC00B04FF1 /* Sofia Pro Semi Bold Italic Az.otf */,
+				6615EAA0267C46CC00B04FF1 /* Sofia Pro UltraLight Az.otf */,
+				6615EA9B267C46CC00B04FF1 /* Sofia Pro UltraLight Italic Az.otf */,
+			);
+			path = "Sofia Pro";
+			sourceTree = "<group>";
+		};
+		6615EAC6267C6F9300B04FF1 /* Proxima Nova */ = {
+			isa = PBXGroup;
+			children = (
+				6615EABA267C6F8D00B04FF1 /* Proxima Nova Alt Bold.otf */,
+				6615EABD267C6F8D00B04FF1 /* Proxima Nova Alt Light.otf */,
+				6615EAB8267C6F8C00B04FF1 /* Proxima Nova Alt Thin.otf */,
+				6615EABB267C6F8D00B04FF1 /* Proxima Nova Black.otf */,
+				6615EAB9267C6F8C00B04FF1 /* Proxima Nova Bold.otf */,
+				6615EAB7267C6F8C00B04FF1 /* Proxima Nova Extrabold.otf */,
+				6615EABC267C6F8D00B04FF1 /* Proxima Nova Thin.otf */,
+				6615EAB6267C6F8C00B04FF1 /* ProximaNova-Regular.otf */,
+			);
+			path = "Proxima Nova";
+			sourceTree = "<group>";
+		};
+		6669424B267BFD4400BC87D7 = {
+			isa = PBXGroup;
+			children = (
+				66694256267BFD4400BC87D7 /* Smile Tracker */,
+				6669426D267BFD4600BC87D7 /* Smile TrackerTests */,
+				66694277267BFD4600BC87D7 /* Smile TrackerUITests */,
+				66694255267BFD4400BC87D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66694255267BFD4400BC87D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66694254267BFD4400BC87D7 /* Smile Tracker.app */,
+				6669426A267BFD4600BC87D7 /* Smile TrackerTests.xctest */,
+				66694274267BFD4600BC87D7 /* Smile TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66694256267BFD4400BC87D7 /* Smile Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				660D7252267C842300164378 /* Smile Tracker.entitlements */,
+				66694257267BFD4400BC87D7 /* AppDelegate.swift */,
+				66694259267BFD4400BC87D7 /* SceneDelegate.swift */,
+				6669425B267BFD4400BC87D7 /* HomeViewController.swift */,
+				66694285267C083700BC87D7 /* CheckinViewController.swift */,
+				6669425D267BFD4400BC87D7 /* Main.storyboard */,
+				660D7253267C896700164378 /* SettingsTableViewController.swift */,
+				66694260267BFD4500BC87D7 /* Assets.xcassets */,
+				66694262267BFD4600BC87D7 /* LaunchScreen.storyboard */,
+				6615EA94267C46BC00B04FF1 /* Fonts */,
+				66694265267BFD4600BC87D7 /* Info.plist */,
+			);
+			path = "Smile Tracker";
+			sourceTree = "<group>";
+		};
+		6669426D267BFD4600BC87D7 /* Smile TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6669426E267BFD4600BC87D7 /* Smile_TrackerTests.swift */,
+			);
+			path = "Smile TrackerTests";
+			sourceTree = "<group>";
+		};
+		66694277267BFD4600BC87D7 /* Smile TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66694278267BFD4600BC87D7 /* Smile_TrackerUITests.swift */,
+			);
+			path = "Smile TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66694253267BFD4400BC87D7 /* Smile Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6669427C267BFD4600BC87D7 /* Build configuration list for PBXNativeTarget "Smile Tracker" */;
+			buildPhases = (
+				66694250267BFD4400BC87D7 /* Sources */,
+				66694251267BFD4400BC87D7 /* Frameworks */,
+				66694252267BFD4400BC87D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smile Tracker";
+			productName = "Smile Tracker";
+			productReference = 66694254267BFD4400BC87D7 /* Smile Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66694269267BFD4600BC87D7 /* Smile TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6669427F267BFD4600BC87D7 /* Build configuration list for PBXNativeTarget "Smile TrackerTests" */;
+			buildPhases = (
+				66694266267BFD4600BC87D7 /* Sources */,
+				66694267267BFD4600BC87D7 /* Frameworks */,
+				66694268267BFD4600BC87D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6669426C267BFD4600BC87D7 /* PBXTargetDependency */,
+			);
+			name = "Smile TrackerTests";
+			productName = "Smile TrackerTests";
+			productReference = 6669426A267BFD4600BC87D7 /* Smile TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66694273267BFD4600BC87D7 /* Smile TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66694282267BFD4600BC87D7 /* Build configuration list for PBXNativeTarget "Smile TrackerUITests" */;
+			buildPhases = (
+				66694270267BFD4600BC87D7 /* Sources */,
+				66694271267BFD4600BC87D7 /* Frameworks */,
+				66694272267BFD4600BC87D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66694276267BFD4600BC87D7 /* PBXTargetDependency */,
+			);
+			name = "Smile TrackerUITests";
+			productName = "Smile TrackerUITests";
+			productReference = 66694274267BFD4600BC87D7 /* Smile TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6669424C267BFD4400BC87D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					66694253267BFD4400BC87D7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					66694269267BFD4600BC87D7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 66694253267BFD4400BC87D7;
+					};
+					66694273267BFD4600BC87D7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 66694253267BFD4400BC87D7;
+					};
+				};
+			};
+			buildConfigurationList = 6669424F267BFD4400BC87D7 /* Build configuration list for PBXProject "Smile Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6669424B267BFD4400BC87D7;
+			productRefGroup = 66694255267BFD4400BC87D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66694253267BFD4400BC87D7 /* Smile Tracker */,
+				66694269267BFD4600BC87D7 /* Smile TrackerTests */,
+				66694273267BFD4600BC87D7 /* Smile TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66694252267BFD4400BC87D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6615EAB4267C46CC00B04FF1 /* Sofia Pro Semi Bold Az.otf in Resources */,
+				6615EABE267C6F8D00B04FF1 /* ProximaNova-Regular.otf in Resources */,
+				6615EAB2267C46CC00B04FF1 /* Sofia Pro Black Italic Az.otf in Resources */,
+				6615EAAD267C46CC00B04FF1 /* Sofia Pro Light Italic Az.otf in Resources */,
+				6615EABF267C6F8D00B04FF1 /* Proxima Nova Extrabold.otf in Resources */,
+				6615EAAF267C46CC00B04FF1 /* Sofia Pro Semi Bold Italic Az.otf in Resources */,
+				6615EAA7267C46CC00B04FF1 /* Sofia Pro ExtraLight Az.otf in Resources */,
+				6615EAAE267C46CC00B04FF1 /* Sofia Pro Bold Az.otf in Resources */,
+				6615EAC0267C6F8D00B04FF1 /* Proxima Nova Alt Thin.otf in Resources */,
+				66694264267BFD4600BC87D7 /* LaunchScreen.storyboard in Resources */,
+				6615EAA6267C46CC00B04FF1 /* Sofia Pro Medium Italic Az.otf in Resources */,
+				6615EAB0267C46CC00B04FF1 /* Sofia Pro UltraLight Az.otf in Resources */,
+				6615EAC1267C6F8D00B04FF1 /* Proxima Nova Bold.otf in Resources */,
+				6615EAB3267C46CC00B04FF1 /* Sofia Pro Black Az.otf in Resources */,
+				6615EAC2267C6F8D00B04FF1 /* Proxima Nova Alt Bold.otf in Resources */,
+				6615EAAB267C46CC00B04FF1 /* Sofia Pro UltraLight Italic Az.otf in Resources */,
+				6615EAA8267C46CC00B04FF1 /* Sofia Pro Regular Italic Az.otf in Resources */,
+				6615EAC4267C6F8D00B04FF1 /* Proxima Nova Thin.otf in Resources */,
+				6615EAAA267C46CC00B04FF1 /* Sofia Pro Bold Italic Az.otf in Resources */,
+				6615EAA5267C46CC00B04FF1 /* Sofia Pro ExtraLight Italic Az.otf in Resources */,
+				6615EAA9267C46CC00B04FF1 /* Sofia Pro Medium Az.otf in Resources */,
+				66694261267BFD4500BC87D7 /* Assets.xcassets in Resources */,
+				6669425F267BFD4400BC87D7 /* Main.storyboard in Resources */,
+				6615EAAC267C46CC00B04FF1 /* Sofia Pro Light Az.otf in Resources */,
+				6615EAB1267C46CC00B04FF1 /* Sofia Pro Regular Az.otf in Resources */,
+				6615EAC3267C6F8D00B04FF1 /* Proxima Nova Black.otf in Resources */,
+				6615EAC5267C6F8D00B04FF1 /* Proxima Nova Alt Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66694268267BFD4600BC87D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66694272267BFD4600BC87D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66694250267BFD4400BC87D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669425C267BFD4400BC87D7 /* HomeViewController.swift in Sources */,
+				660D7254267C896700164378 /* SettingsTableViewController.swift in Sources */,
+				66694258267BFD4400BC87D7 /* AppDelegate.swift in Sources */,
+				66694286267C083700BC87D7 /* CheckinViewController.swift in Sources */,
+				6669425A267BFD4400BC87D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66694266267BFD4600BC87D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669426F267BFD4600BC87D7 /* Smile_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66694270267BFD4600BC87D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66694279267BFD4600BC87D7 /* Smile_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6669426C267BFD4600BC87D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66694253267BFD4400BC87D7 /* Smile Tracker */;
+			targetProxy = 6669426B267BFD4600BC87D7 /* PBXContainerItemProxy */;
+		};
+		66694276267BFD4600BC87D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66694253267BFD4400BC87D7 /* Smile Tracker */;
+			targetProxy = 66694275267BFD4600BC87D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6669425D267BFD4400BC87D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6669425E267BFD4400BC87D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66694262267BFD4600BC87D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66694263267BFD4600BC87D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6669427A267BFD4600BC87D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6669427B267BFD4600BC87D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6669427D267BFD4600BC87D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Main Icon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Smile Tracker/Smile Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smile Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Smile Tracker";
+				INFOPLIST_KEY_CFBundleName = "Smile Tracker";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.smile-aligners-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6669427E267BFD4600BC87D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Main Icon";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Smile Tracker/Smile Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smile Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Smile Tracker";
+				INFOPLIST_KEY_CFBundleName = "Smile Tracker";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.smile-aligners-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66694280267BFD4600BC87D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Smile-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smile Tracker.app/Smile Tracker";
+			};
+			name = Debug;
+		};
+		66694281267BFD4600BC87D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Smile-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smile Tracker.app/Smile Tracker";
+			};
+			name = Release;
+		};
+		66694283267BFD4600BC87D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Smile-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smile Tracker";
+			};
+			name = Debug;
+		};
+		66694284267BFD4600BC87D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Smile-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smile Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6669424F267BFD4400BC87D7 /* Build configuration list for PBXProject "Smile Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6669427A267BFD4600BC87D7 /* Debug */,
+				6669427B267BFD4600BC87D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6669427C267BFD4600BC87D7 /* Build configuration list for PBXNativeTarget "Smile Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6669427D267BFD4600BC87D7 /* Debug */,
+				6669427E267BFD4600BC87D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6669427F267BFD4600BC87D7 /* Build configuration list for PBXNativeTarget "Smile TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66694280267BFD4600BC87D7 /* Debug */,
+				66694281267BFD4600BC87D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66694282267BFD4600BC87D7 /* Build configuration list for PBXNativeTarget "Smile TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66694283267BFD4600BC87D7 /* Debug */,
+				66694284267BFD4600BC87D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6669424C267BFD4400BC87D7 /* Project object */;
+}

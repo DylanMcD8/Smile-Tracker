@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19115.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.4"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="baf-dj-mCM">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <imageReference key="image" image="Background Pattern"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dRh-XZ-9v4">
+                                <rect key="frame" x="50" y="94" width="328" height="748"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <imageReference key="image" image="Smile Tracker Logo"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Background Color"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dRh-XZ-9v4" secondAttribute="bottom" constant="50" id="AZL-Wp-cgu"/>
+                            <constraint firstItem="baf-dj-mCM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Bd8-X0-Aso"/>
+                            <constraint firstItem="baf-dj-mCM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fAE-Kh-sUJ"/>
+                            <constraint firstAttribute="bottom" secondItem="baf-dj-mCM" secondAttribute="bottom" id="fme-C4-Yaa"/>
+                            <constraint firstItem="dRh-XZ-9v4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="gc8-ob-ug6"/>
+                            <constraint firstItem="dRh-XZ-9v4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="iEM-dS-SWu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dRh-XZ-9v4" secondAttribute="trailing" constant="50" id="mEk-vL-dZE"/>
+                            <constraint firstItem="baf-dj-mCM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tJJ-Nf-0a1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background Pattern" width="501.80999755859375" height="502.8699951171875"/>
+        <image name="Smile Tracker Logo" width="796" height="604"/>
+        <namedColor name="AccentColor">
+            <color red="0.5220000147819519" green="0.41499999165534973" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Background Color">
+            <color red="0.3411764705882353" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
