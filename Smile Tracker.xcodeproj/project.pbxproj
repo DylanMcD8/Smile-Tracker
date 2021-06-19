@@ -202,11 +202,11 @@
 				660D7252267C842300164378 /* Smile Tracker.entitlements */,
 				66694257267BFD4400BC87D7 /* AppDelegate.swift */,
 				66694259267BFD4400BC87D7 /* SceneDelegate.swift */,
+				6669425D267BFD4400BC87D7 /* Main.storyboard */,
+				66694262267BFD4600BC87D7 /* LaunchScreen.storyboard */,
 				6669425B267BFD4400BC87D7 /* HomeViewController.swift */,
 				66694285267C083700BC87D7 /* CheckinViewController.swift */,
 				660D7253267C896700164378 /* SettingsTableViewController.swift */,
-				6669425D267BFD4400BC87D7 /* Main.storyboard */,
-				66694262267BFD4600BC87D7 /* LaunchScreen.storyboard */,
 				66694260267BFD4500BC87D7 /* Assets.xcassets */,
 				6615EA94267C46BC00B04FF1 /* Fonts */,
 				66694265267BFD4600BC87D7 /* Info.plist */,
@@ -584,6 +584,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
@@ -620,6 +621,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;

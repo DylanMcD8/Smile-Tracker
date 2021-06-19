@@ -50,11 +50,15 @@ class OverrideCurrentSetViewController: UIViewController {
 
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var buttonsContainer: UIView!
     
     @IBOutlet weak var numberLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        buttonsContainer.layer.cornerCurve = .continuous
+        buttonsContainer.layer.cornerRadius = 45
         
         if let font = UIFont(name: "Sofia Pro Bold", size: 80) {
             let customString = NSMutableAttributedString(string: "-", attributes: [NSAttributedString.Key.font: font])
@@ -111,11 +115,15 @@ class OverrideDaysLeftViewController: UIViewController {
     
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var buttonsContainer: UIView!
     
     @IBOutlet weak var numberLabel: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        buttonsContainer.layer.cornerCurve = .continuous
+        buttonsContainer.layer.cornerRadius = 45
         
         if let font = UIFont(name: "Sofia Pro Bold", size: 80) {
             let customString = NSMutableAttributedString(string: "-", attributes: [NSAttributedString.Key.font: font])

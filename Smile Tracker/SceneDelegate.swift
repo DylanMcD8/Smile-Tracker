@@ -57,6 +57,53 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+        
+        let center = UNUserNotificationCenter.current()
+        
+        center.removePendingNotificationRequests(withIdentifiers: ["MorningReminder", "NightReminder"])
+        
+        // if UserDefaults.standard.string(forKey: "syncicloud hwreminders") == "On" {
+        let content = UNMutableNotificationContent()
+        content.title = "Morning Check In"
+        content.body = "Tap here to complete your morning check in!"
+        // content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "notif.wav"))
+        content.categoryIdentifier = "alarm1"
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeStyle = .short
+        
+        let date = dateFormatter.date(from: UserDefaults.standard.string(forKey: "sync MorningReminderTime") ?? "8:00 AM") ?? Date()
+        let calendar = Calendar.current
+        
+        var dateComponents = DateComponents()
+        dateComponents.hour = calendar.component(.hour, from: date)
+        dateComponents.minute = calendar.component(.minute, from: date)
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        
+        let request = UNNotificationRequest(identifier: "MorningReminder", content: content, trigger: trigger)
+        center.add(request)
+        
+        // Divider
+        
+        let content2 = UNMutableNotificationContent()
+        content2.title = "Evening Reminder"
+        content2.body = "Don't forget to put in your aligners!"
+        // content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "notif.wav"))
+        content2.categoryIdentifier = "alarm2"
+        
+        let date2 = dateFormatter.date(from: UserDefaults.standard.string(forKey: "sync EveningReminderTime") ?? "10:00 PM") ?? Date()
+        
+        var dateComponents2 = DateComponents()
+        dateComponents2.hour = calendar.component(.hour, from: date2)
+        dateComponents2.minute = calendar.component(.minute, from: date2)
+        
+        let trigger2 = UNCalendarNotificationTrigger(dateMatching: dateComponents2, repeats: true)
+        
+        let request2 = UNNotificationRequest(identifier: "EveningReminder", content: content2, trigger: trigger2)
+        center.add(request2)
+            
+//        }
     }
 
 
