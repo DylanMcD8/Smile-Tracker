@@ -17,6 +17,8 @@ class CheckinViewController: UIViewController {
     @IBOutlet weak var rightImage: UIImageView!
     @IBOutlet weak var fullImage: UIImageView!
     
+    @IBOutlet weak var forTheNightOfLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonsContainer.layer.cornerCurve = .continuous
@@ -49,9 +51,19 @@ class CheckinViewController: UIViewController {
             print("error, font not found...")
         }
         
-       
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: -1, to: Date())!
         
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .full
         
+        let year = Calendar.current.component(.year, from: Date())
+        
+        let dateToUse = dateFormatter.string(from: yesterdayDate).replacingOccurrences(of: ", \(year)", with: "").replacingOccurrences(of: " \(year)", with: "")
+        
+        forTheNightOfLabel.text = "For the night of \(dateToUse)."
     }
     
     @IBAction func yes(_ sender: Any) {

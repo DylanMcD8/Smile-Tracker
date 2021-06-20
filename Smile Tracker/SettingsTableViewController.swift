@@ -14,9 +14,7 @@ class SettingsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        let backgroundImage = UIImageView(image: UIImage(named: "Background Pattern")?.withTintColor(UIColor(named: "AccentColor")))
-//        backgroundImage.contentMode = .scaleAspectFill
+
         tableView.backgroundView = UIImageView(image: UIImage(named: "Background Pattern")?.withTintColor(UIColor(named: "AccentColor")!))
         tableView.backgroundView?.contentMode = .scaleAspectFill
         

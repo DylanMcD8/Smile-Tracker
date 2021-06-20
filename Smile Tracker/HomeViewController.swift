@@ -104,7 +104,6 @@ class AllNavigationControllers: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let font = UIFont(name: "Proxima Nova Bold", size: 22) {
-            print("font was found!")
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: font], for: .selected)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: font], for: .highlighted)

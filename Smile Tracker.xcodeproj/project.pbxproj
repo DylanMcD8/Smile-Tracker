@@ -42,6 +42,7 @@
 		6669426F267BFD4600BC87D7 /* Smile_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669426E267BFD4600BC87D7 /* Smile_TrackerTests.swift */; };
 		66694279267BFD4600BC87D7 /* Smile_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66694278267BFD4600BC87D7 /* Smile_TrackerUITests.swift */; };
 		66694286267C083700BC87D7 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66694285267C083700BC87D7 /* CheckinViewController.swift */; };
+		66FF0DC0267EF40F006FB00F /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF0DBF267EF40F006FB00F /* AboutTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		66694274267BFD4600BC87D7 /* Smile TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smile TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66694278267BFD4600BC87D7 /* Smile_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile_TrackerUITests.swift; sourceTree = "<group>"; };
 		66694285267C083700BC87D7 /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+		66FF0DBF267EF40F006FB00F /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 				6669425B267BFD4400BC87D7 /* HomeViewController.swift */,
 				66694285267C083700BC87D7 /* CheckinViewController.swift */,
 				660D7253267C896700164378 /* SettingsTableViewController.swift */,
+				66FF0DBF267EF40F006FB00F /* AboutTableViewController.swift */,
 				66694260267BFD4500BC87D7 /* Assets.xcassets */,
 				6615EA94267C46BC00B04FF1 /* Fonts */,
 				66694265267BFD4600BC87D7 /* Info.plist */,
@@ -396,6 +399,7 @@
 				66694258267BFD4400BC87D7 /* AppDelegate.swift in Sources */,
 				66694286267C083700BC87D7 /* CheckinViewController.swift in Sources */,
 				6669425A267BFD4400BC87D7 /* SceneDelegate.swift in Sources */,
+				66FF0DC0267EF40F006FB00F /* AboutTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
